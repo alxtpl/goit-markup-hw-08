@@ -256,11 +256,28 @@ body.modal-open {
 }
 
 .container {
-  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }
 
 .formcontainer {
@@ -1268,18 +1285,72 @@ footer {
   background-color: var(--second-text-color);
 }
 
-.highlights li {
-  width: 270px;
+@media screen and (max-width: 767px) {
+  .highlights li {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .highlights li {
+    width: 354px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .highlights li {
+    width: 270px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .highlights ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .highlights ul {
+    flex-wrap: wrap;
+    margin-right: -30px;
+    margin-bottom: -30px;
+    align-items: flex-start;
+  }
 }
 
 .highbgicon {
   display: flex;
   background-color: var(--sixth-text-color);
-  width: 270px;
   height: 120px;
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .highbgicon {
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .highbgicon {
+    width: 354px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .highbgicon {
+    width: 270px;
+  }
 }
 
 .whatwedo img,
