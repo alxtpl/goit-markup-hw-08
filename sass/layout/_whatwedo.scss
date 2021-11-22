@@ -1,0 +1,32 @@
+.whatwedo img,
+.teamlist img {
+    max-width: 100%;
+    height: auto;
+}
+
+.whatwedo li {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.whatwedotext {
+    background-color: var(--thirteen-layer-color);
+    flex-shrink: 0;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--second-text-color);
+}

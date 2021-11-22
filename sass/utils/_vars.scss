@@ -1,0 +1,20 @@
+:root {
+    --first-text-color: #212121;
+    --second-text-color: #ffffff;
+    --third-text-color: #757575;
+    --fourth-text-color: #2196f3;
+    --fifth-text-color: #000000;
+    --sixth-text-color: #f5f4fa;
+    --seventh-text-color: rgba(255, 255, 255, 0.6);
+    --eights-text-color: #2f303a;
+    --ninth-text-color: #ececec;
+    --tenth-social-color: #afb1b8;
+    --eleventh-social-color: rgba(255, 255, 255, 0.1);
+    --twelve-grad-color: rgba(47, 48, 58, 0.4);
+    --thirteen-layer-color: rgba(47, 48, 58, 0.8);
+    --fourteen-text-color: rgba(255, 255, 255, 0.6);
+    --transition-duration: 250ms;
+    --transition-function: cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-property: background-color, color, fill;
+    /* transition-property:var(--transition-property); */
+}

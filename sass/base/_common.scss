@@ -1,0 +1,69 @@
+.hightitle,
+.whatwedotitle,
+.teamtitle,
+.teammember {
+    color: var(--first-text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-con__nav-list,
+.header-con,
+.headercontacts,
+.header-con__container,
+.header-con__nav,
+.highlights ul,
+.whatwedo ul,
+.team ul,
+.buttonsfilt {
+    align-items: center;
+    display: flex;
+}
+
+.highlights ul,
+.whatwedo ul,
+.team ul,
+.buttonsfilt {
+    justify-content: center;
+}
+
+.linkcolor:hover,
+.contactcolor:hover,
+.linkcolor:focus,
+.contactcolor:focus,
+.header-con__logoweb {
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-function);
+    transition-property: var(--transition-property);
+    color: var(--fourth-text-color);
+}
+
+.banertitle,
+.banerbutton,
+.adress,
+.studio {
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-function);
+    transition-property: var(--transition-property);
+    color: var(--second-text-color);
+    font-style: normal;
+    font-weight: 400;
+}
+
+.whatwedo li,
+.team li {
+    margin-right: 30px;
+    background-color: var(--second-text-color);
+}
+
+.highlights li:last-child,
+.whatwedo li:last-child,
+.team li:last-child {
+    margin-right: 0px;
+}

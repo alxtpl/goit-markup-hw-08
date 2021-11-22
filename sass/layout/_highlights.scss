@@ -1,0 +1,22 @@
+.highlights {
+    padding-bottom: 47px;
+    padding-top: 94px;
+    li {
+        margin-right: 30px;
+        background-color: var(--second-text-color);
+    }
+}
+
+.highlights li {
+    width: 270px;
+}
+
+.highbgicon {
+    display: flex;
+    background-color: var(--sixth-text-color);
+    width: 270px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}

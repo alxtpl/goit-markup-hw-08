@@ -1,0 +1,36 @@
+.team {
+    background-color: var(--sixth-text-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
+    li {
+        width: 270px;
+        border-style: none;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+    }
+}
+
+.teammember {
+    font-weight: 500;
+}
+
+.teamcont {
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.teammember {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.teamrole {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 10px;
+    font-weight: 400;
+}

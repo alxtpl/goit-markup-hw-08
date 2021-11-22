@@ -1,0 +1,24 @@
+.baner {
+    background-color: var(--eights-text-color);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.baner {
+    justify-content: center;
+    align-items: center;
+}
+
+.bgbaner {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1600px;
+    height: 600px;
+    background-image: radial-gradient( at center, var(--twelve-grad-color) 20%, var(--twelve-grad-color) 80%), url("../images/bg.jpg");
+    /* background-image: url("../images/bg.jpg") */
+}
+
+main p {
+    font-weight: 400;
+}
