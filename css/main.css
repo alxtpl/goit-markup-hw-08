@@ -237,7 +237,7 @@ body.modal-open {
   padding-right: 15px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header-con__container {
     width: 480px;
   }
@@ -396,17 +396,46 @@ body.modal-open {
 
 .banertitle {
   font-family: Roboto, sans-serif;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  width: 696px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
-  padding-top: 200px;
+}
+
+@media screen and (max-width: 767px) {
+  .banertitle {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.06em;
+    width: 360px;
+    padding-top: 118px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .banertitle {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.06em;
+    width: 360px;
+    padding-top: 118px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .banertitle {
+    width: 696px;
+    padding-top: 200px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+  }
 }
 
 .whatwedotitle,
@@ -602,9 +631,6 @@ body.modal-open {
   background-color: var(--eights-text-color);
   margin-left: auto;
   margin-right: auto;
-}
-
-.baner {
   justify-content: center;
   align-items: center;
 }
@@ -613,10 +639,30 @@ body.modal-open {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  max-width: 1600px;
-  height: 600px;
-  background-image: radial-gradient(at center, var(--twelve-grad-color) 20%, var(--twelve-grad-color) 80%), url("../images/bg.jpg");
-  /* background-image: url("../images/bg.jpg") */
+}
+
+@media screen and (max-width: 768px) {
+  .bgbaner {
+    background-image: radial-gradient(at center, var(--twelve-grad-color) 20%, var(--twelve-grad-color) 80%), url("../images/hero/overlay-mob-1x.jpg");
+    max-width: 480px;
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bgbaner {
+    background-image: radial-gradient(at center, var(--twelve-grad-color) 20%, var(--twelve-grad-color) 80%), url("../images/hero/overlay-tablet-1x.jpg");
+    max-width: 768px;
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .bgbaner {
+    background-image: radial-gradient(at center, var(--twelve-grad-color) 20%, var(--twelve-grad-color) 80%), url("../images/hero/overlay-desktop-1x.jpg");
+    max-width: 1600px;
+    height: 600px;
+  }
 }
 
 main p {
