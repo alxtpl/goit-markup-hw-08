@@ -1,20 +1,7 @@
-.subscribe {
-    position: absolute;
-    top: -20px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: var(--second-text-color);
-}
-
-.form-sub-field {
-    position: relative;
-    margin-bottom: 20px;
-}
-
 .form-label {
     color: var(--fourteen-text-color);
     position: absolute;
-    top: 50%;
+    top: 62%;
     left: 40px;
     transform: translateX(-50%);
     transition: transform 250ms linear;
