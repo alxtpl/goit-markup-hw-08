@@ -109,9 +109,18 @@ calc(100%  / 3 - 30px); */
     @media screen and (max-width: 767px) {
         display: flex;
         flex-wrap: wrap;
+        justify-content: flex-start;
     }
     @media screen and (min-width: 768px) {}
     @media screen and (min-width: 1200px) {}
+}
+
+.buttonsfilt li {
+    @media screen and (max-width: 767px) {
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 15px;
+    }
 }
 
 .portlist li {

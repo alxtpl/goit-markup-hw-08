@@ -1,9 +1,14 @@
 .highlights {
-    padding-bottom: 47px;
     padding-top: 94px;
     li {
         margin-right: 30px;
         background-color: var(--second-text-color);
+    }
+}
+
+.highlights .container ul {
+    @media screen and (min-width: 1200px) {
+        padding-bottom: 47px;
     }
 }
 

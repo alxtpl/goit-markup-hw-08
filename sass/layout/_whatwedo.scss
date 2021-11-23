@@ -42,3 +42,9 @@
         display: flex;
     }
 }
+
+.whatwedo .container .whatwedotitle {
+    @media screen and (min-width: 1200px) {
+        padding-top: 47px;
+    }
+}
