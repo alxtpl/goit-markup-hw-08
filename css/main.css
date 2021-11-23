@@ -743,9 +743,11 @@ footer {
   position: relative;
 }
 
-.adress {
-  margin-top: 20px;
-  margin-bottom: 9px;
+@media screen and (min-width: 1200px) {
+  .adress {
+    margin-top: 20px;
+    margin-bottom: 9px;
+  }
 }
 
 .footer li {
@@ -753,14 +755,54 @@ footer {
   margin-bottom: 9px;
 }
 
-.containerfooter {
-  padding-left: 15px;
-  margin-right: 84px;
-}
-
 .icon-sendf {
   margin-left: 10px;
   fill: currentColor;
+}
+
+@media screen and (max-width: 767px) {
+  .allfooter {
+    position: relative;
+    width: 480px;
+    height: 603px;
+    display: flex;
+    align-content: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .containerfooter {
+    position: absolute;
+    top: 30px;
+    left: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .containerfooter {
+    padding-left: 15px;
+    margin-right: 84px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .connectsocial {
+    position: absolute;
+    top: 50px;
+    left: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .formcontainer {
+    position: absolute;
+    top: 70px;
+    left: auto;
+  }
 }
 
 .backdrop {
@@ -1259,20 +1301,6 @@ footer {
   .menu-container {
     display: none;
   }
-}
-
-.navigation,
-.contacts {
-  height: 50px;
-  width: 140px;
-}
-
-.navigation {
-  outline: 1px solid teal;
-}
-
-.contacts {
-  outline: 1px solid orange;
 }
 
 .highlights {

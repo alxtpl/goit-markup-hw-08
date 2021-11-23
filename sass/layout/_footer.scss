@@ -56,8 +56,12 @@ footer {
 }
 
 .adress {
-    margin-top: 20px;
-    margin-bottom: 9px;
+    @media screen and (max-width: 767px) {}
+    @media screen and (min-width: 768px) {}
+    @media screen and (min-width: 1200px) {
+        margin-top: 20px;
+        margin-bottom: 9px;
+    }
 }
 
 .footer li {
@@ -65,12 +69,58 @@ footer {
     margin-bottom: 9px;
 }
 
-.containerfooter {
-    padding-left: 15px;
-    margin-right: 84px;
-}
+.containerfooter {}
 
 .icon-sendf {
     margin-left: 10px;
     fill: currentColor;
+}
+
+.allfooter {
+    @media screen and (max-width: 767px) {
+        position: relative;
+        width: 480px;
+        height: 603px;
+        display: flex;
+        align-content: center;
+    }
+    @media screen and (min-width: 768px) {}
+    @media screen and (min-width: 1200px) {}
+}
+
+.containerfooter {
+    @media screen and (max-width: 767px) {
+        position: absolute;
+        top: 30px;
+        left: auto;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    @media screen and (min-width: 768px) {}
+    @media screen and (min-width: 1200px) {
+        padding-left: 15px;
+        margin-right: 84px;
+    }
+}
+
+.connectsocial {
+    @media screen and (max-width: 767px) {
+        position: absolute;
+        top: 50px;
+        left: auto;
+    }
+    @media screen and (min-width: 768px) {}
+    @media screen and (min-width: 1200px) {}
+}
+
+.formcontainer {
+    @media screen and (max-width: 767px) {
+        position: absolute;
+        top: 70px;
+        left: auto;
+    }
+    @media screen and (min-width: 768px) {}
+    @media screen and (min-width: 1200px) {}
 }
