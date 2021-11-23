@@ -2,11 +2,31 @@
     color: var(--first-text-color);
 }
 
-.portmain {
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 66px;
-    padding-bottom: 94px;
+@media screen and (max-width: 767px) {
+    .portmain {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 66px;
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .portmain {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 66px;
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .portmain {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 100px;
+        padding-bottom: 94px;
+    }
 }
 
 .porttype {

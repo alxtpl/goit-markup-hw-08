@@ -1,6 +1,22 @@
-.clientssec {
-    padding-bottom: 94px;
-    padding-top: 94px;
+@media screen and (max-width: 767px) {
+    .clientssec {
+        padding-bottom: 30px;
+        padding-top: 60px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .clientssec {
+        padding-bottom: 30px;
+        padding-top: 60px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .clientssec {
+        padding-bottom: 94px;
+        padding-top: 94px;
+    }
 }
 
 .clientcontainer {
