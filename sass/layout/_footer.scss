@@ -89,10 +89,10 @@ footer {
         justify-content: center;
     }
     @media screen and (min-width: 1200px) {
+        display: flex;
         flex-wrap: nowrap;
         height: 252px;
         align-items: baseline;
-        padding-top: 60px;
     }
 }
 
