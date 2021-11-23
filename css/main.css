@@ -1386,6 +1386,24 @@ footer {
   color: var(--second-text-color);
 }
 
+@media screen and (max-width: 767px) {
+  .whatwedo {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .whatwedo {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .whatwedo {
+    display: flex;
+  }
+}
+
 .team {
   background-color: var(--sixth-text-color);
   padding-top: 94px;
@@ -1422,6 +1440,34 @@ footer {
   letter-spacing: 0.03em;
   margin-top: 10px;
   font-weight: 400;
+}
+
+@media screen and (max-width: 767px) {
+  .teamlist {
+    flex-direction: column;
+    margin-right: 0;
+    margin-bottom: -30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .teamlist {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .team li {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .team li {
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
 }
 
 .clientssec {
