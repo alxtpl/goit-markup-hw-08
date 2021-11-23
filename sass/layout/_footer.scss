@@ -77,22 +77,35 @@ footer {
 .allfooter {
     @media screen and (max-width: 767px) {
         // position: relative;
-        height: 603px;
+        // height: 603px;
         display: flex;
         align-content: center;
         flex-direction: column;
         justify-content: space-between;
     }
     @media screen and (min-width: 768px) {
-        height: 463px;
+        // height: 463px;
         flex-wrap: wrap;
         justify-content: center;
     }
     @media screen and (min-width: 1200px) {
         display: flex;
         flex-wrap: nowrap;
-        height: 252px;
+        // height: 252px;
         align-items: baseline;
+    }
+}
+
+.footer {
+    @media screen and (max-width: 767px) {
+        height: 603px;
+        align-items: stretch;
+    }
+    @media screen and (min-width: 768px) {
+        height: 463px;
+    }
+    @media screen and (min-width: 1200px) {
+        height: 252px;
     }
 }
 
@@ -106,7 +119,12 @@ footer {
         align-items: center;
         justify-content: center;
     }
-    @media screen and (min-width: 768px) {}
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
     @media screen and (min-width: 1200px) {
         display: flex;
         flex-direction: column;
@@ -252,4 +270,12 @@ footer {
     }
     @media screen and (min-width: 768px) {}
     @media screen and (min-width: 1200px) {}
+}
+
+.footersocial {
+    @media screen and (max-width: 767px) {}
+    @media screen and (min-width: 768px) {}
+    @media screen and (min-width: 1200px) {
+        margin-right: 94px;
+    }
 }

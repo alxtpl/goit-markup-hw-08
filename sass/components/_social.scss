@@ -42,3 +42,37 @@
     align-items: center;
     fill: currentColor;
 }
+
+@media screen and (max-width: 767px) {
+    .sociallink ul {
+        width: 194px;
+    }
+    .sociallink {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    .team ul {
+        align-items: flex-start;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sociallink ul {
+        width: 194px;
+    }
+    .sociallink {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    .team ul {
+        align-items: flex-start;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .team ul {
+        align-items: flex-start;
+    }
+}
