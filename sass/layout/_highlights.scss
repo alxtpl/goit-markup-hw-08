@@ -23,6 +23,7 @@
     }
     @media screen and (min-width: 1200px) {
         width: 270px;
+        margin-right: 30px;
     }
 }
 
@@ -55,5 +56,31 @@
     }
     @media screen and (min-width: 1200px) {
         width: 270px;
+    }
+}
+
+// @media screen and (max-width: 767px) {
+//     .highlights li:nth-child(2n) {
+//         margin-right: 0px;
+//     }
+//     .highlights li:nth-last-child(-n + 2) {
+//         margin-bottom: 0px;
+//     }
+// }
+@media screen and (min-width: 768px) {
+    .highlights li:nth-child(2n) {
+        margin-right: 0px;
+    }
+    .highlights li:nth-last-child(-n + 2) {
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .highlights li:not(:last-child) {
+        margin-right: 30px;
+    }
+    .highlights li {
+        margin-bottom: 0px;
     }
 }
